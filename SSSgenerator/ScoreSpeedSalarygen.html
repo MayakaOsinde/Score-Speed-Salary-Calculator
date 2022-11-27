@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Convertor</title>
+    <link rel="stylesheet" href="./ScoreSpeedSalarygen.css">
+    <header id="header">
+        <div class="overlap"></div>
+        <h1 id="seniortitle">SCORE SPEED SALARY (SSS) CALCULATOR</h1>
+    </header>
+</head>
+
+<body id="body">
+
+    <!-- Created inputs to be linked to my CSS variables using .getElementbyId. -->
+    <!-- Created buttons that submit inputs on-clicking using the button element and onclick attribute. -->
+    
+    <h3 id="scoretitle">Score to grade calculator.</h1>
+        <input type="number" id="score">
+        <br>
+        <button onclick="grade()" id="grader">ENTER</button>
+        <p id="result"></p>
+        <p>Enter your score in the text box above.</p>
+        <p>Click ENTER to view your grade.</p>
+        <p id="validscorewarning">*You can only submit a valid score; <b>0 to 100</b>.*</p>
+
+        <!-- Make a point to create IDs with meaningful tags that provide precise direction to affected resourse -->
+
+        <h3 id="speedtitle">Speed, merit & licensing.</h1>
+            <input type="number" id="speed">
+            <br>
+            <button onclick="speedLimit()" id="speed-monitor">ENTER</button>
+            <p id="speed-output"></p>
+            <p>Enter your driving speed in the text box above.</p>
+            <p>Click ENTER to access merit.</p>
+            <p id="demeritwarning">*If you get more than <b>12</b> demerit points, your license will be revoked!*</p>
+
+            <h3 id="salarybenefits">Tax & compliance calculator.</h1>
+                <input type="number" id="basicSalaryInput">
+                <p id="salaryBenefitsOutput"></p>
+                <P>*Enter your basic salary here.</P>
+
+                <label for="benefits"><input name="benefits" type="number" id="benefitsInput"></label>
+                <br>
+                <p>*Enter your benefits here.</p>
+                <button onclick="netSalaryCalculator()" id="netSal">ENTER</button>
+                <p>Click ENTER to view your net salary.</p>
+                <p id="netSalaryOutput"></p>
+
+
+                <script src="ScoreSpeedSalarygen.js"></script>
+
+</body>
+
+</html>

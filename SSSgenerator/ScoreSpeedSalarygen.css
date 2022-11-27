@@ -1,0 +1,111 @@
+/* All blocks of code have been tagged to their relevant HTML and JS references using the respective ID tag. */
+/* This file defines the appearance of the SSS calculator page. */
+
+/* This code manipulates the header and all its style attributes */
+
+#header {
+  background-image: url(./pexels-monstera-6238297.jpg);
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+  background-size: 1000px;
+  background-attachment: scroll;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0 0 85% 85% / 30%;
+  margin: auto;
+}
+
+/* This code manipulates the header overlap, creating a curved header */
+
+
+#header .overlap {
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+  color: #fff;
+  text-shadow: 1px 1px 1px #333;
+}
+
+/* This code manipulates the style attributes of the html element with the id #body */
+
+#body {
+  height: 900px;
+  border-color: rgb(238, 128, 150);
+  background-size: 85%;
+  background-image: url(./pexels-eberhard-grossgasteiger-2088170.jpg);
+}
+
+#seniortitle {
+  text-decoration: solid;
+  text-align: center;
+  font-family: "sans-serif";
+  font-weight: 300;
+  font-size: 40px;
+  color: #e7c0bb;
+}
+
+#scoretitle {
+  text-align: center;
+  font-family: "Trebuchet MS";
+  font-size: large;
+  background-color: rgb(235, 187, 180);
+}
+#speedtitle {
+  text-align: center;
+  font-family: "Trebuchet MS";
+  font-size: large;
+  background-color: rgb(235, 187, 180);
+}
+#salarybenefits {
+  text-align: center;
+  font-family: "Trebuchet MS";
+  font-size: large;
+  background-color: rgb(235, 187, 180);
+}
+
+#result {
+  text-align: center;
+  font-family: "Trebuchet MS";
+  font-size: large;
+  background-color: darkgray;
+}
+
+#speed-output {
+  text-align: center;
+  font-family: "Trebuchet MS";
+  font-size: large;
+  background-color: darkgray;
+}
+
+#result {
+  text-align: center;
+  font-family: "Trebuchet MS";
+  font-size: large;
+  background-color: darkgray;
+}
+#netSalaryOutput {
+  text-align: center;
+  font-family: "Trebuchet MS";
+  font-size: large;
+  background-color: darkgray;
+}
+
+p {
+  font-family: "Open Sans";
+  font-size: medium;
+}
+
+button {
+  background-color: #fa8a7c;
+  border: #020101;
+  color: white;
+  padding: 5px 40px;
+  text-align: center;
+  text-decoration: solid;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode";
+  display: inline-block;
+  font-size: 16px;
+  margin: px 2px;
+  cursor: pointer;
+}
